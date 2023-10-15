@@ -1,25 +1,31 @@
-// for(let i =0;i < 20;i++){
+// write a for loop that prints your name 10 times without using code snippets or any other reference
+ 
+// for (let i=0; i<20; i++) {
 //     console.log("Ahmed")
 // }
 
-// let count = 0
-// while(count < 10){
+// write a while loop that prints your surname 20 times
+
+// let i = 0;
+
+// while (i < 20) {
 //     console.log("Mohamed")
-//     count++
+//     i++;
 // }
 
-// let c = 0;
-// do {
-//     console.log("I am in the loop body")
-//     c++
-// } while(false)
+// write a do while loop that don't print anything, but put a console.log("I am in the loop body") 
 
+// do{
+//     console.log("I am in the loop")
+//     i++
+// }
+// while(false)
 
 // Write an array that hold 10 names of your friends and family
 
-let friendsAndFamily = ["Ahmed", "Ali", "Mohamed", "Hamza", "Ayuub", "Anas", "Farah"]
+let friendsAndFamily = ["Ali", "Jama", "Farah", "Noor","Bilan", "Saynab", "Sacdiya", "Maryan", "Hamza"];
 
-// How many interation functions that come with arrays that you know
+// How many interaction functions that come with arrays that you know
 
 // friendsAndFamily.forEach()
 // friendsAndFamily.map()
@@ -27,15 +33,16 @@ let friendsAndFamily = ["Ahmed", "Ali", "Mohamed", "Hamza", "Ayuub", "Anas", "Fa
 // friendsAndFamily.reduce()
 // friendsAndFamily.every()
 
-// print every element in the friends array and concat and put hello infront of the name
+// Print every element in the friendsAndFamily array using forEach function, and put hello in clear
+front of the name
+
+friendsAndFamily.forEach(
+    function (name) {
+        console.log("Hi ", name)
+    }
+)
 
 
-// friendsAndFamily.forEach{
-//     function myName(name){
-//         console.log("Hello " + name)
-//     }
-// }
+// convert the above function to an arrow function
 
-friendsAndFamily.forEach; { name => console.log("Hello " + name)}
-
-
+friendsAndFamily.forEach(name => console.log("Hi ", name))
