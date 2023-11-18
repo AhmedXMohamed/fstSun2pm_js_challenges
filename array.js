@@ -1,26 +1,3 @@
-// write a for loop that prints your name 10 times without using code snippets or any other reference
- 
-// for (let i=0; i<20; i++) {
-//     console.log("Ahmed")
-// }
-
-// write a while loop that prints your surname 20 times
-
-// let i = 0;
-
-// while (i < 20) {
-//     console.log("Mohamed")
-//     i++;
-// }
-
-// write a do while loop that don't print anything, but put a console.log("I am in the loop body") 
-
-// do{
-//     console.log("I am in the loop")
-//     i++
-// }
-// while(false)
-
 // Write an array that hold 10 names of your friends and family
 
 let friendsAndFamily = ["Ali", "Jama", "Farah", "Noor","Bilan", "Saynab", "Sacdiya", "Maryan", "Hamza"];
